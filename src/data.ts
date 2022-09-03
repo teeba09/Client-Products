@@ -1,0 +1,96 @@
+export const foodData = [
+  {
+    id: 35,
+    createdAt: "2021-08-07T18:50:15.329Z",
+    updatedAt: "2021-08-07T18:50:15.330Z",
+    name: "Hot Dog",
+    price: "3000",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image: "https://cdn.picpng.com/hot_dog/icon-hot-dog-27152.png",
+    rating: "2",
+  },
+  {
+    id: 34,
+    createdAt: "2021-08-07T18:50:15.290Z",
+    updatedAt: "2021-08-07T18:50:15.291Z",
+    name: "Palak Paneer",
+    price: "20000",
+    description:
+      "Palak Paneer is one of the most popular paneer dishes.Paneer (Indian cottage cheese) is cooked with spinach and spices in this creamy and flavorful curry.It pairs well with naan, paratha or jeera rice.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image: "https://static.toiimg.com/photo/53093667.cms",
+    rating: "2",
+  },
+  {
+    id: 33,
+    createdAt: "2021-08-07T18:50:15.278Z",
+    updatedAt: "2021-08-07T18:50:15.279Z",
+    name: "Hamburger",
+    price: "5000",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg",
+    rating: "2",
+  },
+  {
+    id: 32,
+    createdAt: "2021-08-07T18:50:15.258Z",
+    updatedAt: "2021-08-07T18:50:15.259Z",
+    name: "Falafel",
+    price: "1000",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image:
+      "https://i.ibb.co/whCQhVD/imgbin-falafel-va-NK1qm-Byi-DGm-Ga-QSTZCe-F8-Bx-removebg-preview.png",
+    rating: "2",
+  },
+  {
+    id: 31,
+    createdAt: "2021-08-07T18:50:15.257Z",
+    updatedAt: "2021-08-07T18:50:15.257Z",
+    name: "Grilled halloumi",
+    price: "10000",
+    description:
+      "Halloumi or haloumi (/həˈluːmi/) (Greek: Χαλλούμι) is a semi-hard, unripened cheese made from a mixture of goat's and sheep's milk, and sometimes also cow's milk. It has a high melting point and so can easily be fried or grilled. This property makes it a popular meat substitute.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image:
+      "https://thishealthytable.com/wp-content/uploads/2021/02/grilled-halloumi-salad-6-of-14-720x720.jpg",
+    rating: "2",
+  },
+  {
+    id: 30,
+    createdAt: "2021-08-07T18:50:15.240Z",
+    updatedAt: "2021-08-07T18:50:15.241Z",
+    name: "Ravioli",
+    price: "12000",
+    description:
+      "Traditionally, ravioli are made at home. The filling varies according to the area where they are prepared. In Rome and Latium the filling is made with ricotta cheese, spinach, nutmeg and black pepper.",
+    currency: "IQD",
+    editorId: null,
+    active: true,
+    adminId: 1,
+    image:
+      "https://i0.wp.com/www.spainonafork.com/wp-content/uploads/2017/08/raviloi1-11.png?fit=750%2C751&ssl=1",
+    rating: "2",
+  },
+];
