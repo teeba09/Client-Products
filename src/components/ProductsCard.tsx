@@ -78,28 +78,29 @@ const ProductComponent = () => {
 
         return (
           <div>
-            <div className=" flex justify-center mr-6">
-              {isfav ? (
-                <button
-                  className="px-5 py-5 inline-block border-2 border-pink-700 rounded-full  text-sm font-semibold text-black-500 mr-2"
-                  onClick={() => {
-                    RemoveFromFav(product.id);
-                  }}
-                >
-                  <BsHeartFill />
-                </button>
-              ) : (
-                <button
-                  className="px-5 py-5 inline-block border-2 border-pink-300 rounded-full  text-sm font-semibold text-pink-500 mr-2"
-                  onClick={() => {
-                    AddToFav(product);
-                    // AddToCartAlert();
-                  }}
-                >
-                  <BsHeart />
-                </button>
-              )}
-              {/* <span
+            <div className="max-w-sm rounded shadow-lg mt-3 h-[500px]  hover:shadow-2xl relative">
+              <div className=" flex justify-center mr-6 absolute mt-[10px] mr-[10px] pl-3">
+                {isfav ? (
+                  <button
+                    className="px-3 py-3  inline-block border-2 border-pink-700 rounded-full  text-sm font-semibold text-black-500 mr-2"
+                    onClick={() => {
+                      RemoveFromFav(product.id);
+                    }}
+                  >
+                    <BsHeartFill />
+                  </button>
+                ) : (
+                  <button
+                    className="px-3 py-3 inline-block border-2 border-pink-300 rounded-full  text-sm font-semibold text-pink-500 mr-2"
+                    onClick={() => {
+                      AddToFav(product);
+                      // AddToCartAlert();
+                    }}
+                  >
+                    <BsHeart />
+                  </button>
+                )}
+                {/* <span
                 className="flex justify-center rounded-full  hover:border-2 border-pink-300 p-2 "
                 onClick={() => {
                   AddToFav(product);
@@ -108,8 +109,8 @@ const ProductComponent = () => {
               >
                 <FaStar />
               </span>{" "} */}
-            </div>
-            <div className="max-w-sm rounded shadow-lg mt-3 h-[550px]  hover:shadow-2xl">
+              </div>
+
               <Link to={`/products/${product.id}`}>
                 <img
                   className="w-full h-[52%] object-contain "
@@ -133,7 +134,7 @@ const ProductComponent = () => {
                   <div className=" flex justify-center">
                     {isAdded ? (
                       <button
-                        className="px-5 py-5 inline-block border-2 border-pink-700 rounded-full  text-sm font-semibold text-black-500 mr-2"
+                        className="px-5 py-5 w-full inline-block border-2 border-pink-700 rounded-full  text-sm font-semibold text-black-500 mr-2"
                         onClick={() => {
                           RemoveFromCart(product.id);
                           // RemoveFromCartAlert();
@@ -143,7 +144,7 @@ const ProductComponent = () => {
                       </button>
                     ) : (
                       <button
-                        className="px-5 py-5 inline-block border-2 border-pink-300 rounded-full  text-sm font-semibold text-pink-500 mr-2"
+                        className="px-5 py-5 w-full inline-block border-2 border-pink-300 rounded-full  text-sm font-semibold text-pink-500 mr-2"
                         onClick={() => {
                           AddToCart(product);
                           // AddToCartAlert();
